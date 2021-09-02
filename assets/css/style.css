@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kristi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    font-family: "Kristi", cursive, sans-serif;
+    font-size: 90px;
+}
+h2 {
+    font-family: "Kristi", cursive, sans-serif;
+    font-size: 64px;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+}
+
+.about-hero {
+    background-color: #18c5cc;
+    color: #44273d;
+}
+
+
+.work-hero {
+    background-color: #ffba31;
+    color: #44273d;
+}
+
+
+.contact-hero {
+    background-color: #ff6d3a;
+    color: #44273d;
+}
