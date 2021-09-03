@@ -13,16 +13,64 @@ h1 {
 h2 {
     font-family: "Kristi", cursive, sans-serif;
     font-size: 64px;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 p {
     font-family: "Lato", sans-serif;
 }
 
+/*DEVELOP:: ABOUT SECTION*/
+
+#about {
+    display: flex; 
+    width: 100%;
+}
+
+.about-hero  {
+    background-color: #18c5cc;
+    color: #44273d;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-hero-txt {
+    height: 80%;
+}
+
+.about-hero-nav {
+    background-color: yellowgreen;
+    height: 20%;
+    margin: 10px 10px;
+}
+
+.about-hero-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.about-hero-nav ul a {
+    margin: 10px 30px;
+    font-family: "Lato", sans-serif;
+    color: #44273d; 
+    text-decoration: none;
+}
+
+.about-text {
+    background-color: #f2eeed;
+    width: 50%;
+    text-align: center;
+    
+}
+
+
+
 
 
 /* About section */
+/*
 #about {
     display: flex;
     width: 100%;
@@ -33,8 +81,13 @@ p {
     width: 40%;
 }
 
+.about-text {
+    justify-content: center;
+}
+
 
 /* Work section */
+/*
 #work {
     display: flex;
     width: 100%;
@@ -46,6 +99,7 @@ p {
 }
 
 /* Contact section */
+/*
 #contact {
     display: flex;
     width: 100%;
@@ -55,3 +109,4 @@ p {
     color: #44273d;
     width: 40%;
 }
+*/
