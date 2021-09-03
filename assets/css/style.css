@@ -12,7 +12,7 @@ h1 {
 }
 h2 {
     font-family: "Kristi", cursive, sans-serif;
-    font-size: 64px;
+    font-size: 150px;
     /*text-align: center;*/
 }
 
@@ -25,6 +25,7 @@ p {
 #about {
     display: flex; 
     width: 100%;
+    height: 500px;
 }
 
 .about-hero  {
@@ -34,15 +35,11 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.about-hero-txt {
-    height: 80%;
+    justify-content: space-around;
 }
 
 .about-hero-nav {
-    background-color: yellowgreen;
-    height: 20%;
+    /*background-color: yellowgreen;*/
     margin: 10px 10px;
 }
 
@@ -56,15 +53,61 @@ p {
     font-family: "Lato", sans-serif;
     color: #44273d; 
     text-decoration: none;
+    font-weight: bold;
 }
 
 .about-text {
     background-color: #f2eeed;
     width: 50%;
     text-align: center;
-    
+    padding: 50px;
+    font-weight: bold;
 }
 
+/* DEVELOP:: CONTACT SECTION */
+#contact {
+    display: flex; 
+    width: 100%;
+    height: 500px;
+}
+
+.contact-hero  {
+    background-color: #ff6d3a;
+    color: #44273d;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.contact-hero-nav {
+    /*background-color: yellowgreen;*/
+    margin: 10px 10px;
+}
+
+.contact-hero-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.contact-hero-nav ul a {
+    margin: 10px 30px;
+    font-family: "Lato", sans-serif;
+    color: #44273d; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-text {
+    background-color: #f2eeed;
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    font-weight: bold;
+    
+}
 
 
 
