@@ -6,9 +6,16 @@
     margin: 0px;
 }
 
+body {
+    background-color: #f2eeed;
+}
+
 h1 {
     font-family: "Kristi", cursive, sans-serif;
-    font-size: 90px;
+    font-size: 200px;
+    text-align: center;
+    color: #18c5cc;
+    text-shadow: 2px 2px #f2eeed;
 }
 h2 {
     font-family: "Kristi", cursive, sans-serif;
@@ -19,6 +26,45 @@ h2 {
 p {
     font-family: "Lato", sans-serif;
 }
+
+
+
+/* HEADER AND NAV STYLING BEGINNING */
+header {
+    background-color: #44273d;
+}
+
+.f-name {
+    color: #ffba31;
+}
+.l-name {
+    color: #ff6d3a;
+}
+ .header-nav {
+     color: #f2eeed;
+     
+ }
+
+ .header-nav ul {
+     display: flex;
+     list-style: none;
+     justify-content: center;
+ }
+
+ .header-nav ul a {
+    color: #f2eeed;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0px 30px 10px 30px;
+    font-family: "Lato", sans-serif;
+     
+ }
+/* HEADER/HERO STYLING BEGINNING */
+.header-hero {
+    display: flex;
+    justify-content: center;
+}
+
 
 /*DEVELOP:: ABOUT SECTION*/
 
@@ -107,13 +153,43 @@ p {
 .work-text {
     background-color: #f2eeed;
     width: 50%;
-    text-align: center;
+    
     padding: 50px;
-    font-weight: bold;
+    
     
 }
 
+.box-1 {
+    
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+}
+.box-2 {
+    background-image: url("../images/p-logo-1.jpg");
+    background-size: 15%;
 
+    
+}
+.box-3 {
+    background-color: #f2eeed;
+    background-image: url("../images/robot-1.png");
+    background-position: center;
+    background-size: cover;
+}
+.box-4 {
+    background-color: hotpink;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+    height: 90px;
+    margin: 5px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    border: 2px solid #44273d;
+}
 
 
 
